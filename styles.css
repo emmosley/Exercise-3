@@ -21,10 +21,12 @@ header {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    height: 20vh;
 }
 
 .main-content {
     display: flex;
+    height: 60vh;
 }
 
 .article-1 {
@@ -40,6 +42,7 @@ footer {
     justify-content: space-between;
     flex-direction: row;
     align-items: baseline;
+    height: 20vh;
 }
 
 /* li{
