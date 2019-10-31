@@ -1,0 +1,52 @@
+* {
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+}
+
+html, body {
+        margin: 0;
+        padding: 0;
+        border: none;
+        }
+body {
+    height: 100vh;
+}
+
+h1 {
+    width: 50vw;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+}
+
+.article-1 {
+    width: 75%;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+/* li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul {
+    display: row;
+} */
